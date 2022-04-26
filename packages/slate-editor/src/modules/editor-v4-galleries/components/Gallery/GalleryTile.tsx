@@ -3,6 +3,7 @@ import { isUploadcareImageSizeValid } from '@prezly/uploadcare';
 import classNames from 'classnames';
 import type { CSSProperties } from 'react';
 import React, { Component, createRef } from 'react';
+import 'csstype'
 
 import { ImageSizeWarning, ImageWithLoadingPlaceholderV2, LoadingPlaceholderV2 } from '#components';
 
